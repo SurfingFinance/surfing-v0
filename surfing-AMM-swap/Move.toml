@@ -1,0 +1,12 @@
+[package]
+name = "surfingswap"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+surfingswap =  "0x0"
+sui =  "0000000000000000000000000000000000000002"
+controller = "0x636ea5d3d392935a9a6d9541aceaeb0904e525c7"
+beneficiary = "0x636ea5d3d392935a9a6d9541aceaeb0904e525c7"

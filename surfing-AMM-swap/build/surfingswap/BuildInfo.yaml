@@ -1,0 +1,24 @@
+---
+compiled_package_info:
+  package_name: surfingswap
+  address_alias_instantiation:
+    beneficiary: 636ea5d3d392935a9a6d9541aceaeb0904e525c7
+    controller: 636ea5d3d392935a9a6d9541aceaeb0904e525c7
+    std: "0000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000002"
+    surfingswap: "0000000000000000000000000000000000000000"
+  source_digest: 19ADC26878C7FE088A02E8A1B5C3348E660CF97B84D1D94678C83B5D70CE5ED9
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui
